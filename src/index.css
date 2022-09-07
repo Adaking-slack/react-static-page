@@ -3,13 +3,13 @@ body{
   width: 60%;
   max-width: 100%;
   margin: 0 auto;
-  padding-top: 1em;
-  padding-top: 4em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 main {
   background-color: #1A1B21;
-  width: 70%;
+  width: 50%;
   max-width: 100%;
   margin: 0 auto;
   border-top-right-radius: 5%;
@@ -177,7 +177,16 @@ footer{
   
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
+
+  body{
+    background-color: #e9e1bd;
+    width: 83%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+  }
   main {
     margin-top: 7em;
     background-color:  #161619;
