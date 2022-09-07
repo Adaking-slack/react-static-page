@@ -177,7 +177,7 @@ footer{
   
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
   body{
     background-color: #e9e1bd;
