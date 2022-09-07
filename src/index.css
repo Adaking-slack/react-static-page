@@ -1,22 +1,25 @@
 body{
   background-color: #ddddf8;
+  width: 60%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
 main {
   margin-top: 7em;
   background-color: #1A1B21;
-  width: 33%;
+  width: 70%;
   max-width: 100%;
   margin: 0 auto;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
   font-family: 'inter';
-  position: relative;
 
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   top: 44px;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
@@ -52,7 +55,7 @@ h5 {
   justify-content: center;
 display: flex;
 flex-direction:column ;
-width: 90%;
+width: 92%;
 max-width: 100%;
 margin: 0 auto;
 
@@ -122,8 +125,9 @@ margin: 0 auto;
 }
 
 .more-details{
-  max-width: 90%;
- padding-left: 1.7em;
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .interest{
@@ -170,5 +174,25 @@ footer{
   margin: 1em;
   font-size: 0.9rem;
   color: #918E9B;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    margin-top: 7em;
+    background-color:  #161619;
+    width: 100%;
+    margin: 0 auto;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    font-family: 'inter';
+    position: relative;
+  
+  }
+
+  .more-details{
+    max-width: 85%;
+   margin: 0 auto;
+  }
   
 }

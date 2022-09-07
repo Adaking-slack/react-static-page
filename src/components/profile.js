@@ -37,6 +37,7 @@ export default function Profile() {
                     <Interest />
 </div>
                     <Footer />
+                    
             </main>
         </>
     )
